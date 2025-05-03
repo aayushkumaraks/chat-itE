@@ -1,50 +1,58 @@
-# Welcome to your Expo app 👋
+# Chat-itE
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Chat-itE is a peer-to-peer (P2P) encrypted messaging application designed to provide secure and private communication. It ensures end-to-end encryption, making your conversations safe from unauthorized access.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **End-to-End Encryption**: All messages are encrypted to ensure privacy.
+- **Peer-to-Peer Communication**: Direct communication without relying on centralized servers.
+- **Cross-Platform Support**: Works seamlessly on Android devices.
+- **User-Friendly Interface**: Simple and intuitive design for easy usage.
 
+## Installation
+
+1. Clone the repository:
    ```bash
-   npm install
+   git clone https://github.com/aayushkumaraks/Chat-itE.git
    ```
+2. Build and run the application on your Android device.
 
-2. Start the app
+## Usage
 
+1. Launch the app on your device.
+2. Create a new account or log in.
+3. Start a conversation by connecting with another user.
+4. Enjoy secure and private messaging.
+
+## Technologies Used
+
+- **Programming Language**: React Native
+- **Encryption**: AES/RSA for secure communication
+- **Framework**: Expo/Android SDK
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch:
    ```bash
-    npx expo start
+   git checkout -b feature-name
    ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature-name"
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request.
 
-In the output, you'll find options to open the app in a
+## License
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+This project is licensed under the [MIT License](LICENSE).
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Contact
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For any inquiries or support, please contact [aayushkumar90264@gmail.com].
